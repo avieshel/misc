@@ -1,0 +1,15 @@
+# SBT & Scala
+target/
+!.gitkeep
+# IDE files
+.idea/
+*.iml
+# Build Server Protocol
+.bsp/
+# Logs
+*.log
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
