@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+# Thumbnails
+._*
+# Spotlight metadata
+.metadata_never_index
+
+# SBT / Scala build artefacts
+target/
+module/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files – keep only the root .idea, ignore per‑module ones
+.idea/
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/modules/
+
+# BSP files – keep the workspace‑level one only
+.bsp/
+!.bsp/connection.json
+
+# Scala/Java compiled caches
+*.log
+*.tmp
+
+# Ivy / Maven caches (usually outside the repo but safe to ignore)
+.ivy2/
+.m2/
+
+# SBT launcher / wrapper (if you ever add it)
+project/target/
+project/project/
+project/build.properties   # keep this – it’s required for SBT
